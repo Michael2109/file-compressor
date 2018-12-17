@@ -2,11 +2,16 @@ package compressor
 
 object Compressor {
 
+  /**
+    * Split into
+    * @param fileData
+    * @return
+    */
   def compress(fileData: String): String = {
-    null
+    fileData
   }
 
   def decompress(compressedFileData: String): String = {
-    null
+    compressedFileData
   }
 }
